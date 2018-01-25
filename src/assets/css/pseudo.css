@@ -1,0 +1,84 @@
+@keyframes fontbulger {
+  0%, 100% {
+    font-size: 30px;
+  }
+  50% {
+    font-size: 40px;
+  }
+  from {
+    font-weight: lighter;
+  }
+  to {
+    font-weight: bold;
+  }
+}
+
+.fontbulger {
+  animation-duration: 5s;
+  animation-fill-mode: backwards;
+  animation-delay: 1s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-play-state: running;
+  animation-name: fontbulger;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.first-line::first-line {
+  text-decoration: line-through;
+}
+
+.default:default {
+  color: green;
+}
+
+.active:active {
+  color: blue
+}
+
+.focus:focus {
+  color: red;
+}
+
+.empty {
+  padding: 10px;
+}
+
+.empty:empty {
+  background-color: black;
+}
+
+.first-child li:first-child, .first-child li:last-child {
+  background: linen;
+}
+
+.link, .visited, .hover, .active {
+  height: 15px;
+  width: auto;
+  padding: 5px;
+}
+
+.link a:link {
+  background: linen;
+}
+
+.visited a:visited {
+  background: black;
+}
+
+.hover a:hover {
+  background: skyblue;
+}
+
+.active a:active {
+  background-color: black;
+  color: white;
+}
