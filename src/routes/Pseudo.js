@@ -24,18 +24,21 @@ const About = () => {
     </ul>
     <ol>
       <li className="link">
-        <a href="http://www.google.com" target="_blank" rel="noopener">Link</a>
+        <a href="http://www.google.com">Link</a>
       </li>
       <li className="visited">
-        <a href="http://www.google.com" target="_blank" rel="noopener">visited</a>
+        <a href="http://www.google.com">visited</a>
       </li>
       <li className="hover">
-        <a href="http://www.google.com" target="_blank" rel="noopener">hover</a>
+        <a href="http://www.google.com">hover</a>
       </li>
       <li className="active">
-        <a href="http://www.google.com" target="_blank" rel="noopener">active</a>
+        <a href="http://www.google.com">active</a>
       </li>
     </ol>
+    <div className="expandLeft">
+    </div>
+    <img src="https://www.jetmag.com/wp-content/uploads/2017/04/New-Black-Panther-750x375.jpg" className="expandLeft" height="100"/>
   </div>);
 }
 

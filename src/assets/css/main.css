@@ -1,3 +1,88 @@
-.main-body {
-  margin-left: 200px;
+.container {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.flex-basis-1 {
+  flex-basis: 1px;
+}
+
+.flex-basis-2 {
+  flex-basis: 2px;
+}
+
+.flex-basis-3 {
+  flex-basis: 3px;
+}
+
+.justify-content {
+  justify-content: center;
+}
+
+.align-self {
+  align-self: center;
+}
+
+.bg-gray {
+  background: gray;
+  border: 1px solid white;
+}
+
+.flex-basis-20 {
+  flex-basis: 20%;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.flex-4 {
+  flex: 4;
+}
+
+.flex-5 {
+  flex: 5;
+}
+
+.flex-6 {
+  flex: 6;
+}
+
+.flex-7 {
+  flex: 7;
+}
+
+.full-height {
+  height: 100vh;
+}
+
+.m-t-10 {
+  margin-top: 10px;
+}
+
+.m-t-38 {
+  margin-top: 38px;
 }

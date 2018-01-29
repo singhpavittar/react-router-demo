@@ -82,3 +82,35 @@
   background-color: black;
   color: white;
 }
+
+@keyframes expandLeft {
+  from {
+    width: 50px;
+  }
+  to {
+    width: 200px;
+  }
+}
+
+.expandLeft {
+  animation-duration: 5s;
+  animation-name: expandLeft;
+  animation-fill-mode: forwards;
+  background: black;
+}
+
+@keyframes expandRight {
+  from {
+    width: 200px;
+  }
+  to {
+    width: 50px;
+  }
+}
+
+.expandRight {
+  animation-duration: 5s;
+  animation-name: expandRight;
+  animation-fill-mode: forwards;
+  background: black;
+}

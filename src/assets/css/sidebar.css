@@ -1,6 +1,14 @@
-.sidebar {
-  position: fixed;
-  z-index: 1019;
-  width: 200px;
-  height: calc(100vh - 55px);
+.sidebar-color {
+  background-color: #474857;
+  flex: 1;
+}
+
+.sidebar-color ul>li {
+  list-style: none;
+}
+
+.sidebar-color ul>li a {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
 }

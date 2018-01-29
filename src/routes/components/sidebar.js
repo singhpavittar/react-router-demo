@@ -1,8 +1,9 @@
 import React, {Component} from 'react';
 import {Link} from 'react-router-dom';
-import '../../assets/css/sidebar.css';
+import '../../assets/css/main.css';
+import FA from 'react-fontawesome';
 
-const SideBar = () => (<div className="sidebar">
+const SideBar = () => (<div className="flex-basis-20 full-height">
   <ul>
     <li>
       <Link to="/">Home</Link>
